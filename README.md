@@ -41,7 +41,6 @@ API Colombia es una API REST publica, abierta y sin autenticacion con informacio
 ]
 ```
 
-> Los campos exactos pueden variar; los modelos usan parseo tolerante (`models/json_utils.dart`) para campos nulos o numeros como texto.
 
 ## Arquitectura
 
@@ -134,3 +133,5 @@ REQUEST_TIMEOUT_SECONDS=15
 - `dev`: rama de integracion
 - `feature/taller_api_colombia`: desarrollo del taller (commits atomicos `feat:`, `docs:`, `chore:`)
 - Pull Request `feature/taller_api_colombia` -> `dev`, luego merge de `dev` -> `main`
+
+Proyecto desarrollado por zDaniMC.
