@@ -1,0 +1,25 @@
+name: taller_datos_abiertos
+description: Datos Abiertos de Colombia - app Flutter que consume API Colombia (Dashboard, Listado y Detalle con go_router).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+  go_router: ^14.6.0
+  flutter_dotenv: ^5.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
